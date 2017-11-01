@@ -52,23 +52,36 @@ nav li {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-}
-
-img {
-  width: 60%;
-  padding: 32px 24px;
+  justify-content: flex-start;
 }
 
 .flex-container .side-content {
-  display: list-item;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h1 .learn {
+.side-content {
+  display: flex;
+}
+
+.image-container {
+  padding: 32px 24px;
+}
+
+.flex-container.image-container {
+  width: 60%;
+}
+
+h1.learn {
+  font-size: 2rem;
   font-weight: bold;
 }
 
-a .start-here {
-  padding: 8px;
+.start-here {
+  font-size: 25px;
+  padding: 10px 16px;
+  background-color: brown;
+  text-align: center;
+  color: white;
 }
