@@ -85,3 +85,40 @@ h1.learn {
   text-align: center;
   color: white;
 }
+
+.information-main h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+.side-content {
+  display: flex;
+  width: 40%;
+}
+
+.side {
+  display: flex;
+  text-align: left;
+}
+
+.side .side-content {
+  display: flex;
+}
+
+.side-content .side-image {
+  display: flex;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
