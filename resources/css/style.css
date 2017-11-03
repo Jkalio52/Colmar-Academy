@@ -73,6 +73,10 @@ nav li {
   width: 60%;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 h1.learn {
   font-size: 2rem;
   font-weight: bold;
@@ -118,7 +122,14 @@ span {
 
 .courses {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: space-between;
+  padding: 32px 72px;
+}
+
+.courses-image {
+  display: flow-root;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 32px;
+  align-content: center;
 }
