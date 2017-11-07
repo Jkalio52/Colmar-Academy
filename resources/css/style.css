@@ -138,23 +138,8 @@ span {
   margin: 32px;
 }
 
-.thesis {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 video {
   width: 60%;
-}
-
-video.thesis {
-  display: inline-block;
-}
-
-.thesis-side {
-  width: 40%;
-  padding: 16px;
 }
 
 footer {
