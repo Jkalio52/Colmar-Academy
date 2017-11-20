@@ -3,6 +3,10 @@ html {
   font-size: 28px;
 }
 
+#academy {
+  font-weight: lighter;
+}
+
 header {
   display: flex;
   height: 4rem;
@@ -63,6 +67,7 @@ nav li {
 
 .side-content {
   display: flex;
+  flex-direction: row;
 }
 
 .image-container {
@@ -71,6 +76,11 @@ nav li {
 
 .flex-container.image-container {
   width: 60%;
+}
+
+span {
+  padding-top: 16px;
+  padding-bottom: 12px;
 }
 
 h1, h2, h3 {
@@ -82,17 +92,33 @@ h1.learn {
   font-weight: bold;
 }
 
+.side-content.learn {
+  margin-left: 24px;
+}
+
 .start-here {
   font-size: 25px;
-  padding: 10px 16px;
+  padding: 18px 22px;
   background-color: brown;
   text-align: center;
   color: white;
+  margin: 24px;
 }
 
 .information-main h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#emanual {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.information-main {
+  padding: 32px 24px;
 }
 
 span {
@@ -121,25 +147,62 @@ span {
 }
 
 .courses-section {
-  width: 100%;
-  margin: 32px 0;
   padding: 32px 72px;
+  text-align: justify;
+  width: 100%;
+}
+
+.courses-section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .courses {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.courses-image img {
+.courses-image {
+  padding: 32px 16px;
+  display: block;
+  align-content: center;
+}
+
+img {
   height: auto;
-  padding: 16px;
   margin: 32px;
+}
+
+.courses-image h3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.courses-image p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-weight: lighter;
+}
+
+#thesis .flex-container {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 video {
   width: 60%;
+}
+
+.side-image {
+  height: auto;
+  width: 35%;
 }
 
 footer {
